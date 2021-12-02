@@ -1,0 +1,59 @@
+.scoreboardTable {
+    padding: 0;
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    }
+    .scoreboardTableHeaderRow {
+    color: darkorange;
+    font-weight: bold;
+    height: 50px;
+    }
+    .scoreboardTableBodyRow:nth-child(odd){background-color: rgba(128, 128, 128, 0.050);}
+    #latestUserScore {
+    background-color: crimson;
+    }
+    .scoreboardTableBodyRow:hover{
+    background-color: darkorange;
+    }
+    .scoreboardTable tr td {
+    height: 25px;
+    }
+    .score{
+        color: black;
+    }
+    .text{
+        background-color:rgba(201, 150, 74, 0.219);
+        color: black;
+        margin-top: 40px;
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+    .button {
+        display: inline-flex;
+        margin: 40px 10px;
+        margin-bottom: 80px;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #FF9617;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+      .button:hover {background-color: #ffbd59}
+      .button:active {
+        background-color: #ffbd59;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      body {
+        background-color: rgba(230, 199, 173, 0.192);
+      }
